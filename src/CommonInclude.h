@@ -28,8 +28,8 @@
 #define SRC_WIDTH 960
 #define SRC_HEIGHT 640
 #define LEARN_TITLE "Learning OpenGL"
-#define ROOT_DIR "/Users/windy/devlop/code/CLionProjects/LearningOpenGL/"
-#define RAW "/Users/windy/devlop/code/CLionProjects/LearningOpenGL/raw/"
+#define ROOT_DIR "/Users/windy/devlop/opengl/code/LearningOpenGL/"
+#define RAW "/Users/windy/devlop/opengl/code/LearningOpenGL/raw/"
 
 //const char *vertexShaderSource =
 //        "attribute vec3 aPos;\n"
