@@ -23,7 +23,7 @@ set(ASSIMP /usr/local/Cellar/assimp/5.2.2/include)
 set(GLAD /usr/local/Cellar/glad/include)
 # glm
 set(GLM /usr/local/Cellar/glm/include)
-#yaml-cpp
+#yaml-cpp 文件解析
 set(YAML_CPP /usr/local/include/yaml-cpp)
 
 set(SYSTEM /usr/local/include)

@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/Cellar/glew/2.2.0_1/include/GL",
+                "/usr/local/Cellar/glfw/3.3.4/include/GLFW",
+                "/usr/local/Cellar/freetype/2.11.1/include",
+                "/usr/local/Cellar/freetype/2.11.1/include/freetype2",
+                "/usr/local/Cellar/assimp/5.2.2/include",
+                "/usr/local/Cellar/glad/include",
+                "/usr/local/Cellar/glm/include",
+                "/usr/local/include/yaml-cpp",
+                "/usr/local/Cellar/ffmpeg/5.0/include",
+                "/usr/local/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [],
+            "compilerPath": "/usr/local/bin/gcc-11",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "macos-gcc-x64"
+        }
+    ],
+    "version": 4
+}

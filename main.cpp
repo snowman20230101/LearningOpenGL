@@ -69,10 +69,10 @@ void printSii();
 int main() {
     const char *version = av_version_info();
     printf("ffmpeg version is %s\n", version);
-//    (new TestClass())->exampleYaml();
+    (new TestClass())->exampleYaml();
 
     // openGL 测试用例
-    testOpenGL();
+//    testOpenGL();
 
     // 测试时间
 //    printTimeSamp();
@@ -124,7 +124,7 @@ int testOpenGL() {
 //    base = new AssimpSample();
 
     // FBO
-//    base = new FBOSample();
+    base = new FBOSample();
 
     // 球体
 //    base = new SphereSample();
@@ -157,19 +157,19 @@ int printTimeSamp() {
     struct tm *ptr;
     time_t lt;
     char str[80];
-    lt = time(NULL);
+    lt = time(nullptr);
     ptr = localtime(&lt);
     strftime(str, 100, "It is now %I %p", ptr);
-    printf(str);
+    printf("%s", str);
 
 
     struct tm *newtime;
     char tmpbuf[128];
     time_t lt2;
-    lt2 = time(NULL);
+    lt2 = time(nullptr);
     newtime = localtime(&lt2);
     strftime(tmpbuf, 128, "Today is %A, day %d of %B in the year %Y.\n", newtime);
-    printf(tmpbuf);
+    printf("%s", tmpbuf);
 
     printf("current=%s", getTimeByYMD());
     return 0;
